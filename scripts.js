@@ -19,14 +19,19 @@ console.log(greeting)
 let greetworld = 'Hello World';
 console.log(greetworld.length)
 let names = ['Julia', 'Peter', 'Chandler', 'Monica', 'Rachel', 'Joey']
-trueOrFalse = names[4].length > 5;
-console.log(trueOrFalse)
 names.push = 'Ross';
 console.log(names)
 names[0] ='Krisztina';
 console.log(names)
-trueOrFalse = names.length > 4;
-console.log(trueOrFalse)
-let post = {
-    color: 
-}
+
+
+
+
+
+let myObject = {};
+myObject.colors = ['red', 'white', 'blue'];
+myObject.colors.push('green');
+myObject.hasManyColors =['pink', 'black']
+let number = 3;
+let answer = number < myObject.colors.length + myObject.hasManyColors.length;
+console.log(answer)
